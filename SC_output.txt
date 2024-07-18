@@ -1,0 +1,100 @@
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+Starting migrations...
+======================
+> Network name:    'development'
+> Network id:      5777
+> Block gas limit: 6721975 (0x6691b7)
+
+
+1_initial_migration.js
+======================
+
+   Replacing 'Migrations'
+   ----------------------
+   > transaction hash:    0xe4612df748073296f939dca652952f0ef39028b03d522e7dd93074e8f523c565
+   > Blocks: 0            Seconds: 0
+   > contract address:    0x1a46C9970e88AB4D210807c87EDFe6476Ee9d220
+   > block number:        599
+   > block timestamp:     1721193527
+   > account:             0x9925A22E6E8Ddae43a8581c277Ce7419f04c0c6f
+   > balance:             99999999.196815031902401758
+   > gas used:            206264 (0x325b8)
+   > gas price:           2.500000008 gwei
+   > value sent:          0 ETH
+   > total cost:          0.000515660001650112 ETH
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:     0.000515660001650112 ETH
+
+
+2_deploy_contracts.js
+=====================
+
+   Replacing 'BN256G2'
+   -------------------
+   > transaction hash:    0xc7377633c7c420b6b3ab9bcb3b7f197ffeb8fae554e1206790959bbd262c8453
+   > Blocks: 0            Seconds: 0
+   > contract address:    0x33F605ACEA1F0ACe0d7D41Ba16F81FA97b2343eb
+   > block number:        601
+   > block timestamp:     1721193527
+   > account:             0x9925A22E6E8Ddae43a8581c277Ce7419f04c0c6f
+   > balance:             99999999.195225674397315814
+   > gas used:            590031 (0x900cf)
+   > gas price:           2.500000008 gwei
+   > value sent:          0 ETH
+   > total cost:          0.001475077504720248 ETH
+
+
+   Replacing 'G'
+   -------------
+   > transaction hash:    0xa2fc90c3fddfd59a1b9d0d9928b0aa1c48ff754c4ca4a7d12fcca81a3145b520
+   > Blocks: 0            Seconds: 0
+   > contract address:    0xBdf718BD07653A6FC53b226007920CD78f2C2046
+   > block number:        602
+   > block timestamp:     1721193527
+   > account:             0x9925A22E6E8Ddae43a8581c277Ce7419f04c0c6f
+   > balance:             99999999.195045131896738078
+   > gas used:            72217 (0x11a19)
+   > gas price:           2.500000008 gwei
+   > value sent:          0 ETH
+   > total cost:          0.000180542500577736 ETH
+
+
+   Replacing 'Params'
+   ------------------
+   > transaction hash:    0xbc5eec511cebbc1f61c29b262c8de160f2e8d5377ce7403e668b406dc10a3db3
+   > Blocks: 0            Seconds: 0
+   > contract address:    0x10180D1efe8c29BE8777512C8a9D528ac5dE9FC6
+   > block number:        603
+   > block timestamp:     1721193528
+   > account:             0x9925A22E6E8Ddae43a8581c277Ce7419f04c0c6f
+   > balance:             99999999.190427986881963214
+   > gas used:            1846858 (0x1c2e4a)
+   > gas price:           2.500000008 gwei
+   > value sent:          0 ETH
+   > total cost:          0.004617145014774864 ETH
+
+0x10180D1efe8c29BE8777512C8a9D528ac5dE9FC6
+0x9925A22E6E8Ddae43a8581c277Ce7419f04c0c6f
+0x645FE2FFEfC64B9A691FE9771A73572e72efE62b
+0x1b82F37E048e3b1d3bD4846E726fac1352a54634
+0x4D209e704f6c487420d159f3Dd9D16F8EA7305A6
+0x21B5bB6E595bAaC465C21CEc252f892A74eA5164
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:     0.006272765020072848 ETH
+
+Summary
+=======
+> Total deployments:   4
+> Final cost:          0.00678842502172296 ETH
+
+
