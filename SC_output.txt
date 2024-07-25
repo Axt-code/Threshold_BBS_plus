@@ -16,13 +16,13 @@ Starting migrations...
 
    Replacing 'Migrations'
    ----------------------
-   > transaction hash:    0xe4612df748073296f939dca652952f0ef39028b03d522e7dd93074e8f523c565
+   > transaction hash:    0xe28f9e2a51909da3e67adcaab37fbd307bf221977ee376afb97f60846b504b29
    > Blocks: 0            Seconds: 0
-   > contract address:    0x1a46C9970e88AB4D210807c87EDFe6476Ee9d220
-   > block number:        599
-   > block timestamp:     1721193527
+   > contract address:    0x99b82620B632aE27D353341D4Ad6399e9c2Cc0a4
+   > block number:        698
+   > block timestamp:     1721899344
    > account:             0x9925A22E6E8Ddae43a8581c277Ce7419f04c0c6f
-   > balance:             99999999.196815031902401758
+   > balance:             99999999.123153234166684006
    > gas used:            206264 (0x325b8)
    > gas price:           2.500000008 gwei
    > value sent:          0 ETH
@@ -39,13 +39,13 @@ Starting migrations...
 
    Replacing 'BN256G2'
    -------------------
-   > transaction hash:    0xc7377633c7c420b6b3ab9bcb3b7f197ffeb8fae554e1206790959bbd262c8453
+   > transaction hash:    0x6caba00ceadf3e16d58eee9d1e63f3d7cd5ebb539385e609108dd753df87efde
    > Blocks: 0            Seconds: 0
-   > contract address:    0x33F605ACEA1F0ACe0d7D41Ba16F81FA97b2343eb
-   > block number:        601
-   > block timestamp:     1721193527
+   > contract address:    0x361833C334Efcc9846e1ccCD252B05612f3c4eeb
+   > block number:        700
+   > block timestamp:     1721899345
    > account:             0x9925A22E6E8Ddae43a8581c277Ce7419f04c0c6f
-   > balance:             99999999.195225674397315814
+   > balance:             99999999.121563876661598062
    > gas used:            590031 (0x900cf)
    > gas price:           2.500000008 gwei
    > value sent:          0 ETH
@@ -54,13 +54,13 @@ Starting migrations...
 
    Replacing 'G'
    -------------
-   > transaction hash:    0xa2fc90c3fddfd59a1b9d0d9928b0aa1c48ff754c4ca4a7d12fcca81a3145b520
+   > transaction hash:    0x9b4549afae42cafb1ce08e5116ad4f6264f7186ecf86cf302277cfc9a875f1f4
    > Blocks: 0            Seconds: 0
-   > contract address:    0xBdf718BD07653A6FC53b226007920CD78f2C2046
-   > block number:        602
-   > block timestamp:     1721193527
+   > contract address:    0x6671557bF82e112a0A1194B69d1cAfE5ADfEa00C
+   > block number:        701
+   > block timestamp:     1721899345
    > account:             0x9925A22E6E8Ddae43a8581c277Ce7419f04c0c6f
-   > balance:             99999999.195045131896738078
+   > balance:             99999999.121383334161020326
    > gas used:            72217 (0x11a19)
    > gas price:           2.500000008 gwei
    > value sent:          0 ETH
@@ -69,32 +69,43 @@ Starting migrations...
 
    Replacing 'Params'
    ------------------
-   > transaction hash:    0xbc5eec511cebbc1f61c29b262c8de160f2e8d5377ce7403e668b406dc10a3db3
+   > transaction hash:    0x5e926606ad6442d7fab86cc16f26cc57cc1eafa61d0b4d7d15ced241b16b438c
    > Blocks: 0            Seconds: 0
-   > contract address:    0x10180D1efe8c29BE8777512C8a9D528ac5dE9FC6
-   > block number:        603
-   > block timestamp:     1721193528
+   > contract address:    0x06f451F3976767E0c74cAde0681B7BF18B1f18c9
+   > block number:        702
+   > block timestamp:     1721899345
    > account:             0x9925A22E6E8Ddae43a8581c277Ce7419f04c0c6f
-   > balance:             99999999.190427986881963214
+   > balance:             99999999.116766189146245462
    > gas used:            1846858 (0x1c2e4a)
    > gas price:           2.500000008 gwei
    > value sent:          0 ETH
    > total cost:          0.004617145014774864 ETH
 
-0x10180D1efe8c29BE8777512C8a9D528ac5dE9FC6
-0x9925A22E6E8Ddae43a8581c277Ce7419f04c0c6f
-0x645FE2FFEfC64B9A691FE9771A73572e72efE62b
-0x1b82F37E048e3b1d3bD4846E726fac1352a54634
-0x4D209e704f6c487420d159f3Dd9D16F8EA7305A6
-0x21B5bB6E595bAaC465C21CEc252f892A74eA5164
+
+   Replacing 'user'
+   ----------------
+   > transaction hash:    0xbc6f4e3793a983c7f902a87d221dbd74e4c61f2ed05aa1460242b95e83a9c2a5
+   > Blocks: 0            Seconds: 0
+   > contract address:    0xb1160c0790C1Ee3197F60d7E648276192990265F
+   > block number:        703
+   > block timestamp:     1721899345
+   > account:             0x9925A22E6E8Ddae43a8581c277Ce7419f04c0c6f
+   > balance:             99999999.116364171644959006
+   > gas used:            160807 (0x27427)
+   > gas price:           2.500000008 gwei
+   > value sent:          0 ETH
+   > total cost:          0.000402017501286456 ETH
+
+0x06f451F3976767E0c74cAde0681B7BF18B1f18c9
+0xb1160c0790C1Ee3197F60d7E648276192990265F
    > Saving migration to chain.
    > Saving artifacts
    -------------------------------------
-   > Total cost:     0.006272765020072848 ETH
+   > Total cost:     0.006674782521359304 ETH
 
 Summary
 =======
-> Total deployments:   4
-> Final cost:          0.00678842502172296 ETH
+> Total deployments:   5
+> Final cost:          0.007190442523009416 ETH
 
 

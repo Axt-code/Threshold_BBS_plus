@@ -33,11 +33,13 @@
 var G2 = artifacts.require("../libraries/BN256G2.sol");
 var BnCurve = artifacts.require("../libraries/G.sol");
 // var Request = artifacts.require("./contracts/Request");
-var Params = artifacts.require("./contracts/Params");
+var Params = artifacts.require("../contracts/Params");
+var user = artifacts.require("../contracts/user")
 // var Verify = artifacts.require("./contracts/Verify");
 // var Opening = artifacts.require("./contracts/Opening");
 // var Issue = artifacts.require("./contracts/Issue");
 deployment_address = "0x9925A22E6E8Ddae43a8581c277Ce7419f04c0c6f"
+// deployment_address = "0x3c23E5dbdCcf5C57Cd839bcD3667F86C72F7416E"
 param_address = "0x645FE2FFEfC64B9A691FE9771A73572e72efE62b"
 validator_1 = "0x1b82F37E048e3b1d3bD4846E726fac1352a54634"
 validator_2 = "0x4D209e704f6c487420d159f3Dd9D16F8EA7305A6"
@@ -57,16 +59,20 @@ module.exports = async function (deployer) {
   await deployer.deploy(Params, { from: deployment_address });
   const params = await Params.deployed()
 
+  await deployer.deploy(user, { from: deployment_address });
+  const usee = await user.deployed()
+
 
   // console.log(opening.address);
   // console.log(issue.address);
   // console.log(request.address);
   console.log(params.address);
-  console.log(deployment_address);
-  console.log(param_address);
-  console.log(validator_1);
-  console.log(validator_2);
-  console.log(validator_3);
+  console.log(usee.address);
+  // console.log(deployment_address);
+  // console.log(param_address);
+  // console.log(validator_1);
+  // console.log(validator_2);
+  // console.log(validator_3);
   // console.log(verify.address);
 
 

@@ -18,6 +18,20 @@ def hashG1(byte_string):
             return(FQ(x), FQ(y))
         x = (x + 1) % field_modulus
 
+def to_binary256(point) :
+    if isinstance(point, str):
+        return sha256(point.encode("utf8").strip()).digest()
+    if isinstance(point, int):
+        return point.to_bytes(32, 'big')
+    if isinstance(point[0], FQ):
+        point1 = point[0].n.to_bytes(32, 'big')
+        point2 = point[1].n.to_bytes(32, 'big')
+        return sha256(point1+point2).digest()
+    if isinstance(point[0], FQ2):
+        point1 = point[0].coeffs[0].n.to_bytes(32, 'big') + point[0].coeffs[1].n.to_bytes(32, 'big')
+        point2 = point[1].coeffs[0].n.to_bytes(32, 'big') + point[1].coeffs[1].n.to_bytes(32, 'big')
+        return sha256(point1+point2).digest()
+
 def setup(q=1, AC = "h"):
     assert q > 0
     hs = [hashG1((AC+"%s"%i).encode("utf8")) for i in range(q)]

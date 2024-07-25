@@ -4,8 +4,10 @@ rm -rf ROOT/
 
 truffle migrate --reset –compile-all > SC_output.txt 
 
-python3 protocol_initiator.py --title "Loan Credential" --name "setup" --req-ip 127.0.0.1 --req-port 3001 --address  $(sed -n '85p' SC_output.txt) --validator-addresses $(sed -n '87p' SC_output.txt) $(sed -n '88p' SC_output.txt)  $(sed -n '89p' SC_output.txt) --rpc-endpoint "http://127.0.0.1:7545" --params-address $(sed -n '86p' SC_output.txt)
+python3 protocol_initiator.py --title "Loan Credential" --name "setup" --req-ip 127.0.0.1 --req-port 3001 --address  $(sed -n '85p' SC_output.txt) --validator-addresses $(sed -n '87p' SC_output.txt) $(sed -n '88p' SC_output.txt)  $(sed -n '85p' SC_output.txt) --rpc-endpoint "http://127.0.0.1:7545" --params-address 0x645FE2FFEfC64B9A691FE9771A73572e72efE62b
 
 python3 protocol_initiator.py --title "Loan Credential" --name "setup" --req-ip 127.0.0.1 --req-port 3002 --address 0x9925A22E6E8Ddae43a8581c277Ce7419f04c0c6f --validator-addresses 0x1b82F37E048e3b1d3bD4846E726fac1352a54634 0x4D209e704f6c487420d159f3Dd9D16F8EA7305A6  0x21B5bB6E595bAaC465C21CEc252f892A74eA5164 --rpc-endpoint "http://127.0.0.1:7545" --params-address 0x645FE2FFEfC64B9A691FE9771A73572e72efE62b
 
 python3 protocol_initiator.py --title "Loan Credential" --name "setup" --req-ip 127.0.0.1 --req-port 3003 --address 0x9925A22E6E8Ddae43a8581c277Ce7419f04c0c6f --validator-addresses 0x1b82F37E048e3b1d3bD4846E726fac1352a54634 0x4D209e704f6c487420d159f3Dd9D16F8EA7305A6  0x21B5bB6E595bAaC465C21CEc252f892A74eA5164 --rpc-endpoint "http://127.0.0.1:7545" --params-address 0x645FE2FFEfC64B9A691FE9771A73572e72efE62b
+
+
